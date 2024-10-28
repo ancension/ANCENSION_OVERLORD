@@ -1,0 +1,1510 @@
+body {
+				margin: 0%;											
+				background-image: url('body9.jpg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+
+
+				
+}
+
+
+.layout {
+				display: flex;				
+				width: 100vw;
+				height: 100vh;
+				mnin-width: 960px;
+				mnin-height: 540px;
+				max-width: 1920px;
+				max-height: 1080;
+				margin: 0%;
+							
+				
+}
+
+
+.sidebar {
+				flex: 1;
+				border-right: solid grey;
+				border-width: 2px;
+				background-image: url('navi13.jpg');
+				background-position: center;
+				background-size: contain;		
+				
+}
+
+.main {
+				flex: 5;
+				display: flex;
+				sborder: solid white;
+				overflow: scroll;
+				flex-direction: column;
+				-ms-overflow-style: none;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+}
+
+
+.main::-webkit-scrollbar { 
+	                     display: none;
+}
+
+
+
+
+
+
+
+.logo {
+       nmargin: 8px;
+       margin: 0.625vw;
+				width: 17.96vw;
+	     height: 10.16vw;
+	     padding-left: 1.1vw;
+	     
+}
+
+
+.logocon {
+				text-align: center;
+}
+
+
+
+
+old.sidebar ul {
+			list-style-type: none;
+}
+     
+old.sidebar li a{   
+     padding: 1.1718vw;
+     border-left-style: groove;
+     border-left-width: 0.62vw;
+     display: inline-table;
+     font-family: serif;
+     font-size: 1.953vw;
+     text-decoration: none;
+     color: whitesmoke;     
+}
+
+
+
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0.15625vw;
+  mmargin-left: 2.20vw;
+  margin-left: 3.125vw;  
+  border-left: groove gold;
+  border-left-width: 0.62vw;
+}
+
+
+.sidebar li a {
+  display: block;
+  text-align: left;
+  padding-bottom: 1.093vw;
+  padding-top: 1.093vw;
+  padding-left: 1.5625vw;
+  text-decoration: none;
+  nfont-size: 1.953vw;
+  font-size: 2vw;
+  font-family: serif;
+  font-weight: bold;
+  text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+  color: white;
+  margin: 0;
+  
+
+}
+
+
+.sidebar li a:hover:not(.active) {
+  color: gold;
+ 
+}
+
+
+
+
+.sidebar li a:hover:active {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+.homeimg {
+				background: blanchedalmond;
+				gmin-height: 97.2223vh;
+				fmin-height: 700px;
+				width: 100%;
+				malign-self: center;
+				border-bottom: groove gold 10px;
+				
+				
+}
+
+
+.homeimg img {
+				mwidth: 100%;
+				
+				width: 100%;
+				height: 100%;
+}
+
+
+
+
+.overnews {
+				bbackground: white;
+				background: rgba(1,1,1, 0.8);
+				min-height: 55.555vh;
+				display: flex;
+				emin-height: 400px;
+				border-bottom: groove gold 10px;
+	
+				
+}
+
+.homeconetc {
+				bbackground: #424450;
+				background: rgba(1,1,1, 0.8);
+				min-height: 55.555vh;
+				xmin-height: 400px;
+				display: flex;
+				justify-content: space-around;
+				flex-direction: column;
+				
+				
+				
+}
+
+.homefooter {
+			background-color: royalblue;
+			min-height: 6.9444vh;
+			xmin-height: 50px;
+				
+}
+
+
+
+
+
+.news {
+				flex: 1;
+				jbackground: lawngreen;
+				hbackground: rgba(1,1,1, 0.7);
+				overflow: scroll;
+				border-right: solid gold;
+}
+
+.news::-webkit-scrollbar { 
+	display: none;
+}
+
+.date {
+				font-weight: bold;
+}
+
+
+.news p {
+				
+				margin: 0;
+				padding: 0;
+				font-family: serif;
+				mfont-weight: bold;
+				smargin-left: 10px;
+				ncolor: white;
+				ncolor: lightskyblue;
+				color: cornsilk;
+				font-size: 18px;
+}
+
+
+
+.news h4 {
+				margin: 0;
+				margin-top: 10px;
+				font-size: 30px;
+				margin-left: 8px;
+				margin-right: 10px;
+				border-bottom: solid red;
+				color: white;
+				
+}
+
+
+.twitnews::-webkit-scrollbar { 
+	display: none;
+}
+
+
+
+.twitnews {
+				bbackground: tan;
+				bbackground: rgba(1,1,1, 0.7);
+				flex: 1;
+				overflow: scroll;
+				border-left: solid gold;
+}
+
+
+.twitnews p {
+				
+				margin: 0;
+				padding: 0;
+				font-family: serif;
+				mfont-weight: bold;
+				smargin-left: 10px;
+				ncolor: white;
+				ncolor: palegoldenrod;
+				color: lightskyblue;
+				
+				font-size: 18px;
+}
+
+
+.twitnews h4 {
+				margin: 0;
+				margin-top: 10px;
+				font-size: 30px;
+				margin-left: 8px;
+				margin-right: 10px;
+				border-bottom: solid red;
+				color: white;
+}
+
+
+
+
+.ncon {
+				gbackground: lightskyblue;
+				height: 20%;
+				fwidth: 100%;
+				margin: 5px;
+				border-bottom: dashed grey;
+}
+
+
+
+
+.etchead {
+	
+				flex: 1;
+				text-align: center;
+}
+
+
+.etchead h1{
+				margin-top: 50px;
+				color: palegoldenrod;
+}
+
+
+.etccon {
+				nbackground: darkgoldenrod;
+				flex: 5;
+				display: flex;
+}
+
+
+.etcimg {
+				nbackground: red;
+				flex: 1;
+				text-align: center;
+}
+
+.etcsum {
+				nbackground: aquamarine;
+				flex: 1;
+				text-align: center;
+				color: white;
+				
+}
+
+
+.etcsum h2 {
+				line-height: 240%;
+}
+
+
+
+.etcimg img {
+				width: 95%;
+				box-shadow: 10px 10px 5px gray;
+				border-radius:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mheader {
+       height: 7.81vw; 
+       flex: 0.5;
+       width: 80%; 
+       align-self: center;
+       border-bottom: double grey;
+
+       border-width: 0.390vw;
+       mbackground-color: skyblue;	
+
+}
+
+
+.mheader p {
+				font-family: fantasy;       
+       font-size: 6.25vw;
+       text-align: center;
+       color: white;	
+       mbackground-color: red;		
+       margin-top: 1.953vw;
+  
+}
+
+
+
+
+
+
+
+.mcontent {
+	     display: flex;
+	     flex: 8;
+				mborder: solid blue;
+				flex-direction: row;	
+				bbackground: gold;			
+}
+
+
+
+
+.mleft {
+				flex: 1;
+				mborder: solid red;
+				text-align: center;
+}
+
+
+.mright {
+				flex: 1;
+				mborder: solid blue;
+				text-align: center;
+}
+
+
+
+.mleft .stitle p, .mright .stitle p {
+			 color: goldenrod;
+			 font-size: 3.125vw;
+			 font-family: serif;
+			 margin-top: 3.125vw;
+			 manrgin: 0%;
+			 mborder: solid green;			 
+			 
+}
+
+.mleft p {
+				text-align: right;
+				color: white;
+				nborder: solid blue;
+				margin-bottom: 0%;
+				mfont-size: 1.25vw;
+				font-size: 1.562vw;
+}
+
+.mright p {
+				text-align: left;
+				color: white;
+				nborder: solid red;
+				margin-bottom: 0%;
+				nfont-size: 1.25vw;
+				font-size: 1.562vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainintro {
+       display: flex;
+       flex: 5;
+       flex-direction: column;
+       align-items: center;
+       overflow: scroll;
+       nbackground: khaki;
+       mborder: solid white;
+       color: white;
+       scroll-behavior: smooth;
+			
+}
+
+
+.mainintro::-webkit-scrollbar { 
+	                     display: none;
+}
+
+
+
+
+
+
+.introcon {
+       flex: 1;
+       width: 80%;
+       mbackground: rgba(53,56,57, 0.7);
+       nbackground: red;
+       bborder: solid rgba(255,255,255,0.2) 20px;
+       nborder: ridge rgba(255, 255, 255, 0.3) 5px;
+       nmargin-top: 50px;
+       mmargin-bottom: 50px;
+       margin-top: 3.906%;
+       margin-bottom: 3.906%;
+       nbackground-color: rgba(1, 1, 1, 0.7);
+       nbox-shadow: 5px 10px 8px 10px #888888; 				
+}
+
+
+.introconbor {
+      border: ridge rgba(255, 255, 255, 0.3) 0.3906vw;
+      background-color: rgba(1, 1, 1, 0.7);
+				
+}
+
+
+
+
+.introcon h3 {
+       font-size: 6.25vw;
+       border-bottom: groove white 0.390vw;
+       margin: 0%;
+       vpadding-left: 10px;
+}
+
+.introcon p {
+       .njustify-content: center;
+			  text-align: left;
+			  mmargin: 35px;
+			  mfont-size: 32px;
+			  font-size: 1.82vw;
+			  margin: 2.5%;
+}
+
+
+.intpic {
+       text-align: center;
+       margin-bottom: 2.343%;
+				
+}
+
+.iwall {
+				width: 95%;
+				nborder-left: groove white 5px;
+			
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainstory {
+				flex: 5;
+				sbackground-color: khaki;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				overflow: scroll;
+				background-image: url('alb1.jpg');
+	     background-position: center;
+	     background-repeat: no-repeat;
+	     background-size: cover;
+	            scroll-behavior: smooth;
+}
+
+				
+
+
+
+
+.mainstory::-webkit-scrollbar { 
+	                     display: none;
+}
+
+
+.mainstory h1{
+	color: white;
+	sfont-size: 50px;
+    font-size: 3.6603vw;
+	smargin-bottom: 10px;
+	margin-bottom: 0.73206vw;
+	text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+	sbackground: blue;
+
+
+}
+
+
+
+
+
+
+
+
+
+.mstory {
+       flex: 1;
+				width: 90%;
+				sbackground-color: red;
+				margin-bottom: 5%;
+				display: flex;
+				flex-direction: column;
+				background: rgba(1, 1, 1, 0.6);
+
+				
+}
+
+
+
+
+.mshead {
+				flex: 1;
+				sbackground-color: olivedrab;
+				overflow: hidden;
+				font-weight: bold;
+				font-family: serif;
+				color: white;
+				
+				border-bottom: double gold;
+				border-top: double gold;
+				border-width: 0.54687vw;
+				nborder-width: 3px;
+				nbackground: rgba(1, 1, 1, 0.5);
+}
+
+
+.mscon {
+				flex: 10;				
+				sbackground-color: salmon;
+				width: 90%;
+				align-self: center;	
+				display: flex;
+				flex-direction: column;	
+				nbackground: rgba(1, 1, 1, 0.5);
+}
+
+
+
+.mssummary {
+				flex: 3;
+				sbackground-color: royalblue;
+				mmin-height: 200px;
+				jmin-height: 15.625vw;
+				border-bottom: double gold;			
+				border-width: 0.54687vw;
+				nalign-items: center;
+				align-content: center;
+				text-align: center;
+				
+				nbackground: rgba(1, 1, 1, 0.3);
+}
+
+
+.mssummary p {
+	     color: white;
+	     text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+	     font-size: 1.953125vw;
+	     text-align: justify;
+	     margin: 0;
+	     font-weight: 500;
+	     rbackground: rgba(1, 1, 1, 0.5);
+	     margin-bottom: 1.5625vw;
+}
+
+
+
+
+.mssummary .synop {
+				height: 26.329vw;
+				width: 46.8750vw;
+				margin: 0;
+				margin-top: 0.625vw;
+				margin-bottom: 0.625vw;
+				border-radius: 15px;							
+				
+}
+
+
+
+
+
+
+
+
+
+.msseason {
+				flex: 0.1;
+				sbackground-color: beige;
+				display: flex;
+				align-items: center;
+				uheight: 100%;
+				border-bottom: double gold;			
+				border-width: 0.54687vw;
+				
+				
+}
+
+.msep {
+				flex: 10;
+				sbackground-color: coral;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+}
+
+
+
+
+
+.s1 {
+				flex: 1;
+				sbackground: blanchedalmond;
+				
+}
+
+
+.s2 {
+				flex: 1;
+				sbackground: palegoldenrod;
+}
+
+.s3 {
+				flex: 1;
+				sbackground: rosybrown;
+}
+
+
+
+.msseason a {
+				display: block;
+				color: white;
+				font-weight: bold;
+				text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+				height: 100%;
+				text-align: center;
+				font-size: 2.187vw;
+				text-decoration: none;
+				background: rgba(1, 1, 1, 0.6);
+				border-left: solid gold;
+				border-right: solid gold;
+				
+}
+
+
+
+.msseason a:hover:not(.active) {
+       background-color: #111;
+       color: gold;
+       nborder: solid rgb(56, 56, 56);
+
+}
+
+
+.msseason a:hover:active {
+       background-color: #111;
+       color: gold;
+       nborder: solid rgb(56, 56, 56);
+     
+}
+
+
+
+
+
+
+
+.ep {   
+  sbackground: tomato; 
+  spadding: 0.781%;
+  swidth: 17.969vw;
+  width: 18.969vw;
+  hwidth: 200px;
+  height: 27.7777vh;
+  vheight: 20vh;
+  margin: 0.781%;
+  text-align: center;
+  margin-bottom: 2.3437vw;
+  margin-top: 2.3437vw;
+  nbackground: khaki;
+  
+}
+
+
+.ep p {
+	sfont-size: 1.5625vw;
+       font-size: 15px;
+	margin: 0;
+	text-align: left;
+	nfont-weight: bold;
+	color: white;
+	padding-left: 0.625vw;
+	background: rgba(1, 1, 1, 0.5);
+	text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+	
+
+}
+
+
+.ep img {
+	height: 75%;
+	width: 100%;	
+	border-radius: 15px;
+	
+}
+
+
+.ep h4 {
+	sfont-size: 1.5625vw;
+	font-size: 18px;
+	margin: 0;
+	text-align: left;
+	nfont-weight: bold;
+	color: white;
+	padding-left: 0.625vw;
+	background: rgba(1, 1, 1, 0.5);
+	text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+
+}
+
+
+.ep a {
+				text-decoration: none;
+				transition: transform .2s;
+				
+}
+
+.ep a:hover {
+  opacity: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mshead img {
+       float: left;	
+				vheight: 50px;
+				nwidth: 60px;
+				width: 4.6875vw;
+				nheight: 6.9444vh;
+				height: 3.906vw;				
+}
+
+
+
+.shtitle {								
+				
+				font-size: 2.578vw;
+				float: left;
+				sbackground: blueviolet;				
+				hdisplay: inline;
+				nposition: relative;  
+				display: inline-block;
+				xmargin-top: 10px;
+				xmargin-left: 5px;
+				margin-top: 0.781vw;
+				margin-left: 0.3906vw;
+}
+
+
+.shtitle * { 
+      sbackground: blue;
+      margin:0; 
+      vpadding:0; 
+      border:0; 
+      text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+}
+
+
+
+
+
+
+
+
+
+.shleft {
+			
+}
+
+
+
+
+
+.shnum {
+				float: right;
+				font-size: 2.578vw;
+				text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+}
+
+
+
+.shnum * {
+      sbackground: blue;
+      margin:0;  
+      border:0;
+      margin-top: 0.781vw;
+			 margin-left: 0.3906vw;
+			 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mainbooks {
+				flex: 5;
+				display: flex;
+			  sbackground: salmon;
+				overflow: scroll;
+				flex-direction: column;
+				align-items: center;
+				scroll-behavior: smooth;
+}
+
+
+
+.buyfoot {
+				
+}
+
+
+
+
+
+.mainbooks::-webkit-scrollbar { 
+	                     display: none;
+}
+
+
+
+
+
+.bookshead {
+	sbackground: khaki;
+
+	}
+
+
+.bookshead p{
+	font-size: 50px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	color: white;
+}	
+
+
+
+.bookscon {
+	nbackground: khaki;
+	nbackground: rgba(1,1,1, 1);
+	flex: 1;
+	width: 90%;
+	margin: 1%;
+	
+}
+
+
+
+
+
+.volcont {
+	width: 100%;
+	height: 350px;
+	bbackground: rgba(1,1,1,1);
+	background: #686a79;
+	
+	border: solid gold;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+
+
+.volimg {
+	flex: 2;
+	sbackground: lawngreen;
+
+
+}
+
+
+.volcon {
+	flex: 5;
+	nbackground: chocolate;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+.volimg img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.volsynop {
+	sbackground: red;
+	flex: 10;
+	goverflow: hidden;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	
+
+
+}
+
+
+
+
+
+
+
+.volsynop h2{
+	color: Gold;
+	text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+	nbackground: lemonchiffon;
+} 
+
+
+
+.volsynop h3 {
+				
+				margin: 0;
+				color: #89cff0;
+				text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+	
+}
+
+
+
+
+.volsynop p{
+	color: white;
+	margin-left: 10px;
+	jbackground: green;
+	margin: 0;
+	text-align: justify;
+	text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+	font-size: 18px;
+} 
+
+
+
+
+.buyfoot h5 {
+				margin-top: 20;
+				
+				padding: 0;
+				display: inline;
+				mjpadding-top: 10%;
+				color: white;
+				font-size: 30px;
+				text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+}
+
+
+
+
+.volfoot {
+	
+	flex: 0.5;
+	display: flex;
+	
+
+}
+
+
+
+.buyfoot {
+	nbackground: #424450;
+	background: #4e505a;
+	
+	flex: 10	;
+
+
+}
+
+.buynow {
+	background: lightblue;
+	flex: 1.5;
+	sdisplay: block;
+	text-align: center;
+
+}
+
+
+
+.buynow a {
+	display: inline-block;
+	background: #9EFD38;
+	height: 75%;
+	width: 100%;
+	padding-top: 10%;
+	text-decoration: none;
+	color: black;
+	text-shadow: 0.15625vw 0.15625vw 0.3125vw #FFFFFF;
+	
+	font-weight: bold;
+	
+
+
+	
+
+
+}
+
+
+
+.buynow  a *{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mainpayform {
+	flex: 5;
+	display: flex;
+	sbackground: khaki;
+	overflow: scroll;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+
+
+.mainpayform::-webkit-scrollbar { 
+	                     display: none;
+}
+
+
+
+.mainpay {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	height: 100%;
+	sbackground-color: blue;
+	display: flex;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+
+
+.wpay {
+	background: white;
+	width: 50%;
+	height: 100%;
+	stext-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: groove grey;
+	
+}
+
+
+.wpay h1{
+	text-align: center;
+	bsackground: blue;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
+
+.payment {
+	flex: 1;
+	width: 75%;
+	background: white;
+	salign-content: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+
+.inp {
+	width: 98%;
+	height: 25px;
+	margin: 1px;
+
+}
+
+
+
+
+
+.payment label {
+	font-size: 25px;
+	
+}
+
+
+
+.payment select{
+	width: 100%;
+	height: 25px;
+
+}
+
+
+.cvv {
+     width: 46%;
+     height: 25px;
+     sbackground: lawngreen;
+     margin-right: 6px;
+}
+
+
+.cvvr {
+     width: 46%;
+     height: 25px;
+     sbackground: lawngreen;
+
+}
+
+
+
+
+.sub {
+     margin-top: 5px;
+     width: 100%;
+     height: 30px;
+     background: royalblue;
+     color: white;
+     text-shadow: 0.15625vw 0.15625vw 0.3125vw #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainchar{
+				flex: 5;
+				bbackground: navajowhite;
+				
+				overflow: hidden;
+				display: flex;
+				justify-content: space-around;
+				scroll-behavior: smooth;
+				jbackground-image: url('alb1.jpg');
+	     hbackground-position: center;
+	     hbackground-repeat: no-repeat;
+	     gbackground-size: cover;
+				
+				
+				
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mchar {
+				bbackground: lightblue;
+				width: 80%;
+				display: flex;
+				flex-direction: column;
+				margin-top: 8px;
+				margin-bottom: 8px;
+				
+}
+
+.mchar h1 {
+				text-align: center;
+				color: white;
+}
+
+
+
+
+.charhead {
+				nbackground: blue;
+			  flex: 1.5;
+			  text-align: center;
+			  flex-direction: row;
+			  display: flex;
+			  overflow: scroll;
+			  scroll-behavior: smooth;
+			  border-bottom: solid gold;			  
+			  border-top: solid gold;
+			  border-width: 0.25vw;
+			  
+}
+
+
+
+
+.charhead::-webkit-scrollbar { 
+	                     width: 10px;
+	                     height: 10px;
+}
+
+
+.charhead::-webkit-scrollbar-y { 
+	                    display: none;
+}
+
+
+
+
+
+
+.charhead::-webkit-scrollbar-track { 
+	                   background: #f1f1f1;
+}
+
+
+.charhead::-webkit-scrollbar-thumb{ 
+	                     background: #888;
+}
+
+
+.charhead::-webkit-scrollbar-thumb:hover{ 
+	                     background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mainpayform::-webkit-scrollbar { 
+	display: none;
+}
+
+
+
+
+.charcon {
+				nbackground: #020413;
+				nbackground: khaki;
+				background: rgba(1,1,1,0.7);
+				flex: 10;
+				overflow: hidden;
+				
+				
+}
+
+
+
+.charac {
+				nbackground: hotpink;
+				mmin-width: 11.72vw;
+				min-width: 105px;
+				height: 100%;
+				border-left: solid bisque;
+				border-right: solid bisque;
+				border-width: 0.2vw;
+				
+				
+				
+}
+
+
+.charac img {
+				width: 100%;
+				height: 100%;
+				background: black;
+}
+
+
+
+
+.charwrap {
+				nbackground: palegreen;
+				height: 600px;
+				flex: 1;
+				margin-bottom: 300px;
+				display: flex;
+				
+}
+
+
+
+
+.cconimg {
+				nbackground: hotpink;
+				flex: 0.8;
+}
+
+.cconsum {
+				nbackground: darkcyan;
+				flex: 1;
+				
+				
+}
+
+
+.cconsum .cname {
+				text-align: center;
+				color: gold;
+}
+			
+.cconsum p {
+				text-align: center;
+				npadding-left: 8px;
+				margin-right: 5%;
+				font-size: 28px;
+				color: white;
+				
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cconimg img{
+				width: 400px;
+				height: 550px;
+				nbackground:black;
+}
+
+
+
